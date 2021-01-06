@@ -1,0 +1,254 @@
+<!--Coded With TOXIC 4L!3N-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Christmas Wishes By Albin</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <div class="inside">
+            <p>Wishing you a blessed Christmas<br>And lots of happiness in the<br>
+<h3>New Year</h3><br>By<br>Albin Thomas
+<ul class="actions special">
+								<li><a href="https://ai-viki.github.io" class="button">INFO</a></li>
+							</ul>
+
+
+</p>
+        </div>    
+        <div class="outside">
+            <div class="front">
+                <div class="belt"></div>
+                <div class="mouth"></div>
+                <div class="beard"></div>
+                <p>Touch Me</p>
+            </div>
+            <div class="back"></div>
+        </div>
+    </div>
+<style>
+*,
+*:before,
+*:after{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000022;
+}
+.container{
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.card{
+    height: 750px;
+    width: 750px;
+    position: absolute;
+    cursor: pointer;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    -webkit-perspective: 1200px;
+        perspective: 1200px;
+    top: 40px;
+    right: 22px;
+    -webkit-tap-highlight-color: transparent;
+}
+.card:hover{
+    -webkit-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+}
+.card:hover .outside{
+    -webkit-transform: rotateY(-130deg);
+            transform: rotateY(-130deg);
+}
+.outside{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 50.12%;
+    -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    -webkit-transform-origin: left;
+        -ms-transform-origin: left;
+            transform-origin: left;
+}
+.front,.back{
+    height: 100%;
+    width: 100%;
+    position: absolute;  
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    /*hide backface in firefox*/
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);   
+}
+.front{
+    background-color: #BE0F04;
+    z-index: 1;
+}
+.front:before{
+    content: "";
+    position: absolute;
+    background-color: #101010;
+    height: 50px;
+    width: 100%;
+    top: 150px;
+}
+.belt{
+    height: 72px;
+    width: 72px;
+    border: 12px solid #E5A037;
+    border-radius: 10px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 139px;
+    z-index: 1;
+}
+.belt:after{
+    content: "";
+    position: absolute;
+    width: 65px;
+    height: 10px;
+    background-color: #d6932e;
+    top: 18px;
+    right: 7px;
+    border-radius: 8px;
+}
+.mouth{
+    position: absolute;
+    background-color: #EFBEAB;
+    height: 30px ;
+    width: 50px;
+    z-index: 1;
+    border-radius: 0 0 50% 50%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 20px;
+}
+.beard{
+    background-color: #f5f5f5;
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    border-radius: 0 0 50% 50%;
+}
+.beard:before,
+.beard:after{
+    position: absolute;
+    content: "";
+    width: 80px;
+    height: 30px;
+    background-color: #f5f5f5;
+    -webkit-box-shadow: 0 10px #d3d3d3;
+            box-shadow: 0 10px #d3d3d3;
+    border-radius: 0 0 50% 50%;
+    top: -0px;
+    z-index: 2;
+}
+.beard:before{
+    left: 8px;
+}
+.beard:after{
+    right: 8px;
+}
+.front p{
+    font-family: 'Poppins',sans-serif;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 220px;
+    letter-spacing: 1.2px;
+}
+.back{
+    background: -webkit-gradient(
+        linear,
+        left top, right top,
+        color-stop(50%, #BE0F04),
+        to(#7d0b03)
+    );
+    background: -o-linear-gradient(
+        left,
+        #BE0F04 50%,
+        #7d0b03
+    );
+    background: linear-gradient(
+        to right,
+        #BE0F04 50%,
+        #7d0b03
+    );
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+}
+.inside{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    background: -webkit-gradient(
+        linear,
+        right top, left top,
+        color-stop(50%, #BE0F04),
+        to(#7d0b03)
+    );
+    background: -o-linear-gradient(
+        right,
+        #BE0F04 50%,
+        #7d0b03
+    );
+    background: linear-gradient(
+        to left,
+        #BE0F04 50%,
+        #7d0b03
+    );
+    font-family: 'Parisienne', cursive;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+    padding: 50px 10px;
+    -webkit-box-shadow: 25px 25px 35px rgba(0,0,0,0.3);
+            box-shadow: 25px 25px 35px rgba(0,0,0,0.3);
+}
+.inside p{
+    border-bottom: 10px dotted white;
+}
+a{
+    display: block;
+    width: 100%;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    background-color: #f5f5f5;
+    color: #BE0F04;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+}
+</style>
+</div>
+</body>
+</html>
