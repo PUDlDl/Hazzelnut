@@ -1,8 +1,8 @@
 const listsay = () => { 
 	return `
 	
-	-fajargay
-	-agunggay
+	-kata ilham
+	-kamugay
 	-orang
 	-Prisonschool
     -masougakuenhxh
