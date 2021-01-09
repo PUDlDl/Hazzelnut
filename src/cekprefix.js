@@ -1,6 +1,6 @@
 const prefix = (prefix) => { 
 	return `
-	PREFIX YANG SAAT INI DIGUNAKAN *「* ${prefix} *」
+	PREFIX YANG SEDANG DIGUNAKAN *「* ${prefix} *」
 	`
 	}
 exports.prefix = prefix
