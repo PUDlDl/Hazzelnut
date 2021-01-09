@@ -25,6 +25,6 @@ const makermenu = (prefix) => {
 ╠➥ *${prefix}glitch* [text]
 ╠➥ *${prefix}jokerlogo [teks]*
 ║
-╚═〘 Rizky BOT 〙`
+╚═〘 Hazzelnut BOT 〙`
 }
 exports.makermenu = makermenu
