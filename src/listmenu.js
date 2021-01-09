@@ -226,9 +226,9 @@ const listmenu = (prefix) => {
 ║
 ╚═ Ketik *${prefix}info* untuk melihat list informasi tentang bot
        Ketik *${prefix}owner* untuk melihat kontak owner
-         Mau donasi? 082387804410(Telkom)
+         Mau donasi? 087714745440(XL)
          Jika tidak ingin donasi bantu Follow Ig aja kak 
-         _instagram.com/_rizkyfadilah8_
-    _*RIZKY BOT © 2021*_`
+         _instagram.com/itspapoy
+    _*Hazzelnut BOT © 2021*_`
 }
 exports.listmenu = listmenu
