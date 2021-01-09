@@ -24,6 +24,6 @@ const animemenu = (prefix) => {
 ╠➥ *${prefix}kurumi*
 ╠➥ *${prefix}miku*
 ║
-╚═〘 Rizky BOT 〙`
+╚═〘 Hazzelnut BOT 〙`
 }
 exports.animemenu = animemenu
