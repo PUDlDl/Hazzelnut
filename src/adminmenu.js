@@ -36,6 +36,6 @@ const adminmenu = (prefix) => {
 ╠➥  *${prefix}edotensei*
 ╠➥  *${prefix}listadmins*
 ╠➥  *${prefix}ping*
-╚═〘 Rizky BOT 〙`
+╚═〘 Hazzelnut BOT 〙`
 }
 exports.adminmenu = adminmenu
