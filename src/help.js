@@ -1,13 +1,16 @@
 const help = (prefix) => { 
 	return `
-𝐑𝐮𝐥𝐞𝐬 - 𝐒𝐢𝐦𝐩𝐥𝐞 _*Xkyou-BOT*_
+𝐑𝐮𝐥𝐞𝐬𝐒 _*Hazzelnut-BOT*_
 ▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬
+
 ●⧐ *Spam : Auto Block!*
 ●⧐ *Beri Jeda 5detik Penggunaan!*
 ●⧐ *Bug/Error Harap Cht Owner!*
 ●⧐ *Harap Sabar Dengan Bug²nya!*
 ●⧐ *Gunakan Bot Sebaik-baiknya!*
+
 ▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬
+
 _*ListMenu*_
 
 ├ *${prefix}ownermenu*
@@ -21,7 +24,9 @@ _*ListMenu*_
 ├ *${prefix}animemenu*
 ├ *${prefix}othermenu*
 └ *${prefix}listmenu*
+
 ▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬
+
 _*OthersMenu*_
 
 ├ *${prefix}request*
@@ -39,12 +44,13 @@ _*OthersMenu*_
 ├ *${prefix}owner*
 ├ *${prefix}tnc*
 └ *${prefix}snk*
+
 ▬▭▬▭▬▭▬▭▬▭▬▭▬▭▬
 *Special Thanks To*
-_•MhankBarBar_
-_•Rizky-BOT_
-_•XP-TN_
-_•AlphaKing_`
+•MhankBarBar
+•ArugaZ
+•XP-TN
+•Tobz`
 
 }
 exports.help = help
