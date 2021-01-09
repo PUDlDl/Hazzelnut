@@ -3,14 +3,14 @@ const iklan = () => {
 ╔══✪〘 IKLAN 〙✪══
 ║
 ╠═══════════════════════════
-╠➥ *DAFTAR SEWA & BUAT BOT :*
+╠➥ *DAFTAR SEWA BOT :*
 ╠➥ *SEWA : 10K/GRUP (BULAN)*
-╠➥ *BUAT : 25K (BISA JADI OWNER)*
+╠➥ *SEWA : 30K (1 TAHUN)*
 ╠➥ *PEMBAYARAN BISA MELALUI :*
-╠➥ *GOPAY, DANA, PULSA,TRAKTEER*
+╠➥ *GOPAY, DANA, PULSA, SAWERIA*
 ╠═══════════════════════════
 ╠➥ *KEUNTUNGAN SEWA BOT :*
-╠➥ *1. BISA MENJADI ADMIN Rizky*
+╠➥ *1. BISA MENJADI ADMIN Hazzelnut*
 ╠➥ *2. BISA MENDAPATKAN COMMAND ADMIN*
 ╠➥ *KEUNTUNGAN BUAT BOT :*
 ╠➥ *1. BISA MENJADI OWNER BOT SENDIRI*
@@ -21,9 +21,9 @@ const iklan = () => {
 ╠═══════════════════════════
 ╠➥ *JIKA MINAT IKLAN DIATAS*
 ╠➥ *HARAP HUBUNGI NOMOR DIBAWAH :*
-╠➥ *wa.me/6282387804410*
+╠➥ *wa.me/6287714745440*
 ║
-╚═〘 Rizky BOT 〙
+╚═〘 Hazzelnut BOT 〙
 `
 }
 exports.iklan = iklan
