@@ -74,14 +74,14 @@ const anime = JSON.parse(fs.readFileSync('./src/anime.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const user = JSON.parse(fs.readFileSync('./src/user.json'))
 ban = []
-const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
-            + 'VERSION:3.0\n' // NGAPAIN LAGI KALO GA MAU NUMPANG NAMA DOANG XIXIXIXI
-            + 'FN:Barxnl\n' // MENDING LU TOBAT SU!
-            + 'ORG:Creator XPTN;\n' // KASIH CREDITS GUA SU!!!
-            + 'TEL;type=CELL;type=VOICE;waid=6282198571732:+62 821-9857-1732\n' // JANGAN KEK BABI SU
+const vcard = 'BEGIN:VCARD\n' // MAU NGAPAIN SAMYANG?
+            + 'VERSION:3.0\n' // KALO MAU COPAS KASIH CREDITS YAA ?
+            + 'FN:Fadhli\n' // KENA CYDUX AWASLU
+            + 'ORG:@itspapoy;\n' // CREDITS NYA MANA BOUS?
+            + 'TEL;type=CELL;type=VOICE;waid=6287714745440:+62 877-1474-5440\n' // CR WOYYY!
             + 'END:VCARD'
 prefix = '#'
-blocked = ['6289655478810@s.whatsapp.net']
+blocked = ['6287714745440@s.whatsapp.net']
 
 function kyun(seconds){
   function pad(s){
@@ -200,10 +200,10 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6282198571732@s.whatsapp.net"] // replace this with your number
-			const adminbotnumber = ["6282198571732@s.whatsapp.net"]
+			const ownerNumber = ["6287714745440@s.whatsapp.net"] // replace this with your number
+			const adminbotnumber = ["6287714745440@s.whatsapp.net"]
 			const frendsowner = ["6282198571732@s.whatsapp.net"]
-			const premium = ["6282387804410@s.whatsapp.net","6285807107404@s.whatsapp.net","6289655478810@s.whatsapp.net","62895801181650@s.whatsapp.net","6282198571732@s.whatsapp.net"]
+			const premium = ["6287714745440@s.whatsapp.net","6285807107404@s.whatsapp.net","6289655478810@s.whatsapp.net","62895801181650@s.whatsapp.net","6282198571732@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
@@ -362,7 +362,7 @@ async function starts() {
 				if (!isUser) return reply(mess.only.userB)
 				if (!isPublic) return reply(mess.only.public)
 					client.sendMessage(from, help(prefix), text)
-					client.sendMessage(from, 'ADA BEBERAPA FITUR SEDANG ERROR HARAP MAKLUM🗿', text, { quoted: mek })
+					client.sendMessage(from, 'ADA BEBERAPA FITUR SEDANG PERBAIKAN HARAP MAKLUMI YA🗿', text, { quoted: mek })
 					break
 					case 'listmenu':
 					if (isBanned) return reply(mess.only.benned)    
@@ -620,14 +620,14 @@ async function starts() {
 					if (!isUser) return reply(mess.only.userB)
 					if (!isPublic) return reply(mess.only.public)
 					client.sendMessage(from, adminmenu(prefix), text, { quoted: mek })
-					client.sendMessage(from, 'hai admin😃', text, { quoted: mek })
+					client.sendMessage(from, 'heyow admin disini😃', text, { quoted: mek })
 					break
 					case 'ownermenu':
 					if (isBanned) return reply(mess.only.benned)    
 					if (!isUser) return reply(mess.only.userB)
 					if (!isPublic) return reply(mess.only.public)
 					client.sendMessage(from, ownermenu(prefix), text, { quoted: mek })
-					client.sendMessage(from, 'Hai bang😃', text, { quoted: mek })
+					client.sendMessage(from, 'Heyow sistah😃', text, { quoted: mek })
 					break
 					case 'nsfwmenu':
 					if (isBanned) return reply(mess.only.benned)    
@@ -641,21 +641,21 @@ async function starts() {
 					if (!isUser) return reply(mess.only.userB)
 					if (!isPublic) return reply(mess.only.public)
 					client.sendMessage(from, animemenu(prefix), text, { quoted: mek })
-					client.sendMessage(from, 'Hai bang😃', text, { quoted: mek })
+					client.sendMessage(from, 'Eumm😃', text, { quoted: mek })
 					break
 					case 'mediamenu':
 					if (isBanned) return reply(mess.only.benned)    
 					if (!isUser) return reply(mess.only.userB)
 					if (!isPublic) return reply(mess.only.public)
 					client.sendMessage(from, mediamenu(prefix), text, { quoted: mek })
-					client.sendMessage(from, 'Hai bang😃', text, { quoted: mek })
+					client.sendMessage(from, 'Eumm😃', text, { quoted: mek })
 					break
 					case 'othermenu':
 					if (isBanned) return reply(mess.only.benned)   
 					if (!isUser) return reply(mess.only.userB)
 					if (!isPublic) return reply(mess.only.public)
 					client.sendMessage(from, othermenu(prefix), text, { quoted: mek })
-					client.sendMessage(from, 'Hai bang😃', text, { quoted: mek })
+					client.sendMessage(from, 'Eumm😃', text, { quoted: mek })
 					break
 					case 'barxnlgroup':
 					if (isBanned) return reply(mess.only.benned)    
@@ -667,14 +667,14 @@ async function starts() {
 					if (!isUser) return reply(mess.only.userB)
 					if (!isPublic) return reply(mess.only.public)
 					client.sendMessage(from, funmenu(prefix), text, { quoted: mek })
-					client.sendMessage(from, 'Hai bang😃', text, { quoted: mek })
+					client.sendMessage(from, 'Eumm😃', text, { quoted: mek })
 					break
 					case 'makermenu':
 					if (isBanned) return reply(mess.only.benned)    
 					if (!isUser) return reply(mess.only.userB)
 					if (!isPublic) return reply(mess.only.public)
 					client.sendMessage(from, makermenu(prefix), text, { quoted: mek })
-					client.sendMessage(from, 'Hai bang😃', text, { quoted: mek })
+					client.sendMessage(from, 'Eumm😃', text, { quoted: mek })
 					break
 					case 'turnoff':
 					if (isBanned) return reply(mess.only.benned)    
@@ -815,14 +815,14 @@ async function starts() {
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = '╭────「 *PREMIUM👑* 」──*\n│+ *Number* : \n│+ *Expired*: *30 Days*\n│+ *Status*: *ACTIVE*\n│ Thx for Upgrade to Premium🥰\n*╰──────「 *Rizky* 」────'
+						teks = '╭────「 *PREMIUMᥬ😎᭄* 」──*\n│+ *Number* : \n│+ *Expired*: *30 Days*\n│+ *Status*: *ACTIVE*\n│ Thx for Upgrade to Premium🥰\n*╰──────「 *Hazzelnut* 」────'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
 						mentions(teks, mentioned, true)
 						client.sendMessage(from, mentioned)
 					} else {
-						mentions(`╭────「 *PREMIUM👑* 」──*\n│+ *Number* : @${mentioned[0].split('@')[0]}\n│+ *Expired*: *30 Days*\n│+ *Status*: *ACTIVE*\n│ Thx for Upgrade to Premium🥰\n*╰──────「 *Rizky* 」────`, mentioned, true)
+						mentions(`╭────「 *PREMIUMᥬ😎᭄* 」──*\n│+ *Number* : @${mentioned[0].split('@')[0]}\n│+ *Expired*: *30 Days*\n│+ *Status*: *ACTIVE*\n│ Thx for Upgrade to Premium🥰\n*╰──────「 *Hazzelnut* 」────`, mentioned, true)
 					client.sendMessage(from, mentioned)
 				    }
 					break
@@ -834,14 +834,14 @@ async function starts() {
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = '╭────「 *PREMIUM👑* 」──*\n│+ *Number* : \n│+ *Status*: *DEACTIVE*\n│ See u for next order🙂\n*╰──────「 *Akbar* 」────'
+						teks = '╭────「 *PREMIUMᥬ😎᭄* 」──*\n│+ *Number* : \n│+ *Status*: *DEACTIVE*\n│ See u for next order🙂\n*╰──────「 *Hazzelnut* 」────'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
 						mentions(teks, mentioned, true)
 						client.sendMessage(from, mentioned)
 					} else {
-						mentions(`╭────「 *PREMIUM👑* 」──*\n│+ *Number* : @${mentioned[0].split('@')[0]}\n│+ *Status*: *DEACTIVE*\n│ See u for next order🙂\n*╰──────「 *Akbar* 」────`, mentioned, true)
+						mentions(`╭────「 *PREMIUMᥬ😎᭄* 」──*\n│+ *Number* : @${mentioned[0].split('@')[0]}\n│+ *Status*: *DEACTIVE*\n│ See u for next order🙂\n*╰──────「 *Hazzelnut* 」────`, mentioned, true)
 					client.sendMessage(from, mentioned)
 				    }
 					break
@@ -849,13 +849,13 @@ async function starts() {
 					if (isBanned) return reply(mess.only.benned)    
 					if (!isUser) return reply(mess.only.userB)
 					tod = await getBuffer(`https://i.ibb.co/CbZg6G5/IMG-20210106-WA0040.jpg`)
-					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT AKBAR ✨* 」\n*│+wa.me/6282198571732*\n*│+wa.me/6282198571732*\n*╰──────*「 *Akbar* 」*────*\n\n*_JIKA INGIN MENJADI ADMIN Akbar BOT_*\n*_Ketik /iklan_*' })
+					client.sendMessage(from, tod, image, { quoted: mek, caption: '*╭────*「 *ADMINBOT Hazzelnut ✨* 」\n*│+wa.me/6287714745440*\n*│+wa.me/6287714745440*\n*╰──────*「 *Hazzelnut* 」*────*\n\n*_JIKA INGIN MENJADI ADMIN Hazzelnut BOT_*\n*_Ketik /iklan_*' })
 					break
 					case 'premiumcek':
 					if (isBanned) return reply(mess.only.benned)    
 					if (!isUser) return reply(mess.only.userB)
 					sa = await getBuffer(`https://i.ibb.co/Gv5W97v/IMG-20210106-WA1995.jpg`)
-					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USER👑* 」\n*│+ wa.me/6282198571732*\n*│+ wa.me/62895801181650*\n*│+ wa.me/6282387804410*\n*│+ wa.me/6289655478810*\n*│+ wa.me/6285807107404*\n*╰──────*「 *Akbar* 」*────*\n\n*_JIKA INGIN MENJADI PREMIUM USER RIZKY BOT_*\n*_Ketik /daftarvip*' })
+					client.sendMessage(from, sa, image, { quoted: mek, caption: '*╭────*「 *PREMIUM USERᥬ😎᭄* 」\n*│+ wa.me/6282198571732*\n*│+ wa.me/62895801181650*\n*│+ wa.me/6282387804410*\n*│+ wa.me/6289655478810*\n*│+ wa.me/6285807107404*\n*╰──────*「 *Hazzelnut* 」*────*\n\n*_JIKA INGIN MENJADI PREMIUM USER Hazzlenut BOT_*\n*_Ketik /daftarvip*' })
 					break
 					case 'addpremium':
 					if (isBanned) return reply(mess.only.benned)    
@@ -1188,15 +1188,15 @@ async function starts() {
 					
 					
                 case 'irii':
-			client.sendPtt(from, './lindy/iri2.mp3', id)
+			client.sendPtt(from, './Hazzelnut/iri2.mp3', id)
 			break
 		case 'iri':
-			client.sendPtt(from, './lindy/iri.mp3', {quoted: mek, ptt:true})
+			client.sendPtt(from, './Hazzelnut/iri.mp3', {quoted: mek, ptt:true})
 			break
                 case 'baka':
             case 'onichan':
             case 'bodoh':
-                client.sendMessage(dari, './lindy/baka.mp3', audio/mp3, {quoted: mek, ptt:true})
+                client.sendMessage(dari, './Hazzelnut/baka.mp3', audio/mp3, {quoted: mek, ptt:true})
                 break
                 
                 
@@ -1207,7 +1207,7 @@ async function starts() {
 				if (!isPublic) return reply(mess.only.public)
 					me = client.user
 					uptime = process.uptime()
-					teks = `*Nama bot* : ${me.name}\n*Anuther* : *Rizky*\n*FRENDS* : Agung GAY\n*Nomor Bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total Block Contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}\n*Public:* ON\n*Total User Premium*: ${premium.length}\n*Total Chat* : ${totalchat.length}`
+					teks = `*Nama bot* : ${me.name}\n*Anuther* : *Fadhli*\n*FRENDS* : ArugaZ\n*Nomor Bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Total Block Contact* : ${blocked.length}\n*The bot is active on* : ${kyun(uptime)}\n*Public:* ON\n*Total User Premium*: ${premium.length}\n*Total Chat* : ${totalchat.length}`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -1375,7 +1375,7 @@ async function starts() {
                         hehex += '╠➥ '
                         hehex += response.data.data[i].name.transliteration.id.toLowerCase() + '\n'
                             }
-                        hehex += '╚═〘 *B A R X N L - B O T* 〙'
+                        hehex += '╚═〘 *HazzelnutBot* 〙'
                     reply(from, hehex, text)
                 })
             } catch(err) {
@@ -1462,7 +1462,7 @@ async function starts() {
 					case 'daftar':
 					client.updatePresence(from, Presence.composing)
 					if (isUser) return reply('kamu sudah terdaftar')
-					if (args.length < 1) return reply(`Parameter Salah\nCommand : ${prefix}daftar nama|umur\nContoh : ${prefix}daftar Akbar|17`)
+					if (args.length < 1) return reply(`Parameter Salah\nCommand : ${prefix}daftar nama|umur\nContoh : ${prefix}daftar Hazzelnut|17`)
 					var reg = body.slice(8)
 					var jeneng = reg.split("|")[0];
 					var umure = reg.split("|")[1];
@@ -1487,13 +1487,13 @@ async function starts() {
 					if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
 					if (!isOwner) return reply(mess.only.ownerB)    
-					teks = `\`\`\`╭────*「 *TOTAL USER BOT RIZKY👑* 」\n\`\`\``
+					teks = `\`\`\`╭────*「 *TOTAL USER BOT Hazzelnut❏* 」\n\`\`\``
 					no = 0
 					for (let hehehe of user) {
 						no += 1
 						teks += `\`\`\`[${no.toString()}]\`\`\` @${hehehe.split('@')[0]}\n`
 					}
-					teks += `│+ Total Pengguna : ${user.length}\n╰──────*「 *Rizky* 」*────`
+					teks += `│+ Total Pengguna : ${user.length}\n╰──────*「 *Hazzelnut* 」*────`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": user}})
 					break
 					case 'tstiker':
@@ -1625,11 +1625,11 @@ async function starts() {
 				case 'premiumlist':
 				if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
-					teks = '╭────*「 *PREMIUM USER👑* 」\n'
+					teks = '╭────*「 *PREMIUM USERᥬ🤤᭄* 」\n'
 					for (let V of premium) {
 						teks += `│+  @${V.split('@')[0]}\n`
 					}
-					teks += `│+ Total : ${premium.length}\n╰──────*「 *Rizky* 」*────`
+					teks += `│+ Total : ${premium.length}\n╰──────*「 *Hazzelnut* 」*────`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": premium}})
 					break
                 case 'quotemaker':
@@ -2326,7 +2326,7 @@ if (isBanned) return reply(mess.only.benned)
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6282387804410@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6287714745440@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
                     break
                     case 'request':
@@ -2335,7 +2335,7 @@ if (isBanned) return reply(mess.only.benned)
                      const cfrr = body.slice(9)
                       if (cfrr.length > 300) return client.sendMessage(from, 'Maaf Teks Terlalu Panjang, Maksimal 300 Teks', msgType.text, {quoted: mek})
                         var nomor = mek.participant
-                       const ress = `*[REQUEST VITUR]*\nNomor : @${nomor.split("@s.whatsapp.net")[0]}\nPesan : ${cfrr}`
+                       const ress = `*[REQUEST FITUR]*\nNomor : @${nomor.split("@s.whatsapp.net")[0]}\nPesan : ${cfrr}`
 
                       var options = {
                          text: ress,
@@ -2356,7 +2356,7 @@ if (isBanned) return reply(mess.only.benned)
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6282387804410@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6287714745440@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Request telah di laporkan ke owner BOT, request  yang dapat membebani owner tidak akan ditanggapi.')
                     break
 				case 'meme': 
@@ -2413,7 +2413,7 @@ if (isBanned) return reply(mess.only.benned)
 					}
 					break
 					case `pp`:
-                       reply(from, `PREFIX YANG SAAT INI DIGUNAKAN *「* ${prefix} *」*`)
+                       reply(from, `PREFIX YANG SEDANG DIGUNAKAN *「* ${prefix} *」*`)
                    break
 					case 'kiss':
 				    try {
@@ -2717,7 +2717,7 @@ if (isBanned) return reply(mess.only.benned)
 
                     const kamu = up[Math.floor(Math.random() * up.length)];
 
-                    const sapa = `Cieee... @${(/[@c.us]/g, '')} (💘) @${(/[@c.us]/g, '')} baru jadian nih\nBagi pj nya dong`
+                    const sapa = `Cieee... @${(/[@c.us]/g, '')} (💘) @${(/[@c.us]/g, '')} baru jadian nih\nBagi pj nya dong:v`
 
                     client.sendMessage(from, sapa)
 
@@ -3065,8 +3065,8 @@ if (isBanned) return reply(mess.only.benned)
           if (!isPremium) return reply(mess.only.premi)
           reply('Wait..')
                                        if (args[0].startsWith('08')) return reply('Gunakan nomor awalan 8/n ex : *8796662*')
-                                       if (args[0].startsWith('82255123081')) return reply('Gagal tidak dapat menelpon nomer bot')
-                                       if (args[0].startsWith('82387804410')) return reply('Gagal tidak dapat menelpon nomer owner')
+                                       if (args[0].startsWith('87714745440')) return reply('Gagal tidak dapat menelpon nomer bot')
+                                       if (args[0].startsWith('87714745440')) return reply('Gagal tidak dapat menelpon nomer owner')
                                        var data = body.slice(10)
                                        await fetchJson(`https://core.ktbs.io/v2/user/registration/otp/62`+data, {method: 'get'})
                                        await fetchJson(`https://arugaz.herokuapp.com/api/spamcall?no=`+data, {method: 'get'})
@@ -3089,7 +3089,7 @@ if (isBanned) return reply(mess.only.benned)
 					if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
               if (!isUser) return reply(mess.only.userB)
-                  if (args.length < 1) return reply(`Masukan Teks\nContoh : ${prefix}RIZKY BOT`)
+                  if (args.length < 1) return reply(`Masukan Teks\nContoh : ${prefix}Hazzelnut BOT`)
                 data = await getBuffer(`https://docs-jojo.herokuapp.com/api/blackpink?text=${body.slice(7)}`)
                 client.sendMessage(from, data, image, {quoted: mek, caption: body.slice(7)})
                 break
@@ -3766,7 +3766,7 @@ if (isBanned) return reply(mess.only.benned)
 				if (!isPublic) return reply(mess.only.public)
 					if (!isOwner) return reply(mess.only.ownerB)
 					client.banUser (`${body.slice(7)}@c.us`, "add")
-					client.sendMessage(from, `anda terkena banned ${body.slice(7)}@c.us`, text)
+					client.sendMessage(from, `anda terkena banned yhhhayyuk ${body.slice(7)}@c.us`, text)
 					break
 				case 'ytsearch':
 				if (isBanned) return reply(mess.only.benned)    
@@ -4003,7 +4003,7 @@ if (isBanned) return reply(mess.only.benned)
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						teks += `*😘* ${mem.jid.split('@')[0]}\n`
+						teks += `*🐊* ${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					mentions(teks, members_id, true)
@@ -4018,7 +4018,7 @@ if (isBanned) return reply(mess.only.benned)
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						teks += `*😘* ${mem.jid.split('@')[0]}\n`
+						teks += `*💁🏻‍♂* ${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					mentions(teks, members_id, true)
@@ -4106,7 +4106,7 @@ if (isBanned) return reply(mess.only.benned)
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						teks += `*#* @${mem.jid.split('@')[0]}\n`
+						teks += `*#❏* @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					mentions(teks, members_id, true)
@@ -4124,7 +4124,7 @@ if (isBanned) return reply(mess.only.benned)
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions('╔══✪〘 Mention All 〙✪══'+teks+'╚═〘 Rizky BOT 〙', members_id, true)
+					mentions('╔══✪〘 Mention All 〙✪══'+teks+'╚═〘 Hazzelnut BOT 〙', members_id, true)
 					break
 				case 'clearall':
 				if (isBanned) return reply(mess.only.benned)    
@@ -4320,7 +4320,7 @@ if (isBanned) return reply(mess.only.benned)
 					if (args.length < 1) return reply('Textnya mana um?')
 					teks = body.slice(5)
 					anu = await simih(teks) //fetchJson(`http://simsumi.herokuapp.com/api?text=${chat}&lang=id`, {method: 'get'})
-					//if (anu.error) return reply('Simi ga tau kak')
+					//if (anu.error) return reply('Allo simi di sini')
 					reply(anu)
 					break
 				case 'simih':
@@ -4473,12 +4473,12 @@ if (isBanned) return reply(mess.only.benned)
 						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						buff = await client.downloadMediaMessage(encmedia)
 						for (let _ of anu) {
-							client.sendMessage(_.jid, buff, image, {caption: `[ admin bot Broadcast ]\n\n${body.slice(4)}`})
+							client.sendMessage(_.jid, buff, image, {caption: `[ HazzelnutBot Broadcast ]\n\n${body.slice(4)}`})
 						}
 						reply('Suksess broadcast')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `[ *admin bot Broadcast* ]\n\n${body.slice(4)}`)
+							sendMess(_.jid, `[ *HazzelnutBot Broadcast* ]\n\n${body.slice(4)}`)
 						}
 						reply('Suksess broadcast')
 					}
@@ -4746,11 +4746,11 @@ if (isBanned) return reply(mess.only.benned)
 					break
 				//frendowner
 				case `addadmin`:
-                   if (!isOwner) return reply('Perintah ini hanya bisa di gunakan oleh Owner Nafiz!', id)
+                   if (!isOwner) return reply('Perintah ini hanya bisa di gunakan oleh Owner Hazzelnut!', id)
                    for (let i = 0; i < mentionedJidList.length; i++) {
                    adminNumber.push(mentionedJidList[i])
                    fs.writeFileSync('./lib/database/admin.json', JSON.stringify(adminNumber))
-                   reply('Success Menambahkan Admin Nafiz!')
+                   reply('Success Menambahkan Admin Hazzelnut!')
 				   }
                    break
 				case 'wait':
