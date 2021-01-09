@@ -1,6 +1,7 @@
 **Temporary artificial features and modification**
 
-<p align="center">
+<details>
+
 ```bash
 jangan dulu di colong anjim
 gada akhlaq
