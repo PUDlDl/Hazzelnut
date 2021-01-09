@@ -1,6 +1,6 @@
 const listsurah = () => { 
 	return `      
-	Assalamu'alaikum
+	Assalammu'alaikum Warahmatullahi Wabarakatuh
 
 *Berikut ini Daftar Nomor Surah*
 1. Al-Fatihah الفاتحة
