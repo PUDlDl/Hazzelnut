@@ -1,7 +1,7 @@
 const vipmenu = (prefix) => { 
 	return `            
 	
-╔══✪〘 VIP USER 〙✪══
+╔══✪〘 USER VIP 〙✪══
 ║
 ╠➥ *${prefix}ytmp4 [link]*
 ╠➥ *${prefix}ytmp3 [link]*
@@ -22,7 +22,7 @@ const vipmenu = (prefix) => {
 ╠➥  *${prefix}indo(1-25)*
 ╠➥  *CONTOH ${prefix}indo1*
 ║
-╚══✪〘 RIZKYBOT 〙✪══
+╚══✪〘 HazzelnutBot 〙✪══
 `
 }
 exports.vipmenu = vipmenu
