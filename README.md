@@ -1,6 +1,7 @@
 **Temporary artificial features and modification**
 
-```php
+<p align="center">
+```bash
 jangan dulu di colong anjim
 gada akhlaq
 ```
