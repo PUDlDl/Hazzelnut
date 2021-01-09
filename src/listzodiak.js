@@ -13,7 +13,7 @@ function listzodiak() {
 ╠≽ Capricorn (21 Desember – 19 Januari)
 ╠≽ Aquarius (20 Januari – 18 Februari)
 ╠≽ Pisces (19 Februari – 20 Maret)
-╚════ #listzodiak *「 B O T 」* `
+╚════ #listzodiak *「 Hazzelnut BOT 」* `
 }
 exports.listzodiak = listzodiak
 const aries = () => { 
