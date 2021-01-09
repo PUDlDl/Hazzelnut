@@ -1,5 +1,5 @@
 {
-  "name": "termux-wabot",
+  "name": "Hazzelnut",
   "version": "0.0.2",
   "description": "No comment",
   "main": "index.js",
@@ -45,10 +45,10 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mhankbarbar/termux-wabot.git"
+    "url": "git+https://github.com/PUDlDl/Hazzelnut.git"
   },
   "bugs": {
-    "url": "https://github.com/mhankbarbar/termux-wabot/issues"
+    "url": "https://github.com/PUDlDl/Hazzelnut/issues"
   },
-  "homepage": "https://github.com/mhankbarbar/termux-wabot#readme"
+  "homepage": "https://github.com/PUDlDl/Hazzelnut#readme"
 }
