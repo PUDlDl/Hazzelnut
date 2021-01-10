@@ -14,5 +14,4 @@
 | [MhankBarBar](https://github.com/MhankBarBar) |
 | :-: |
 | [ArugaZ](https:/github.com/ArugaZ) |
-| :-: |
 | [XP-TN](https://github.com/XP-TN) |
