@@ -3,8 +3,8 @@ const listmenu = (prefix) => {
 
 ╭◪ *OWNER*
 ╰───────────────────
-•├❍ *${prefix}block 62858xxxxx*
-•├❍ *${prefix}unblock 62858xxxxx*
+•├❍ *${prefix}block 62878xxxxx*
+•├❍ *${prefix}unblock 62878xxxxx*
 •├❍ *${prefix}promote @tagmember*
 •├❍ *${prefix}demote @tagadmin*
 •├❍ *${prefix}bc*
@@ -33,7 +33,7 @@ const listmenu = (prefix) => {
 •├❍ *${prefix}promote*
 •├❍ *${prefix}demote*
 •├❍ *${prefix}delete*
-•├❍ *${prefix}add 62813xxxxx*
+•├❍ *${prefix}add 62878xxxxx*
 •├❍ *${prefix}kickall*
 •├❍ *${prefix}tagall*
 •├❍ *${prefix}otagall*
@@ -79,10 +79,10 @@ const listmenu = (prefix) => {
 
 ╭◪ *KERANG*
 ╰───────────────────
-•├❍ *${prefix}apakah [optional]*
-•├❍ *${prefix}rate [optional]*
-•├❍ *${prefix}bisakah [optional]*
-•├❍ *${prefix}kapankah [optional]*
+•├❍ *${prefix}apakah* [optional]
+•├❍ *${prefix}rate* [optional]
+•├❍ *${prefix}bisakah* [optional]
+•├❍ *${prefix}kapankah* [optional]
 •├❍ *${prefix}gantengcek*
 •├❍ *${prefix}toxic*
 •├❍ *${prefix}cantikcek*
@@ -112,7 +112,7 @@ const listmenu = (prefix) => {
 •├❍ *${prefix}water* [text]
 •├❍ *${prefix}epep* [text]
 •├❍ *${prefix}glitch* [text]
-•├❍ *${prefix}jokerlogo [teks]*
+•├❍ *${prefix}jokerlogo* [teks]
  ╰───────────────────
 
 ╭◪ *MEDIA*
@@ -133,33 +133,33 @@ const listmenu = (prefix) => {
 •├❍ *${prefix}infoghitub* 
 •├❍ *${prefix}infocuaca* [kota]
 •├❍ *${prefix}infogempa*
-•├❍ *${prefix}artinama [nama]*
-•├❍ *${prefix}covid [negara]*
-•├❍ *${prefix}nulis [teks]*
-•├❍ *${prefix}sandwriting [teks]*
-•├❍ *${prefix}quotemaker [|teks|author|theme]*
-•├❍ *${prefix}resepmasakan [optional]*
-•├❍ *${prefix}tts [kode bhs] [teks]*
-•├❍ *${prefix}igstalk [@username]*
-•├❍ *${prefix}tiktokstalk [@username]*
-•├❍ *${prefix}wiki [query]*
-•├❍ *${prefix}qrcode [optional]*
-•├❍ *${prefix}map [optional]*
-•├❍ *${prefix}textmaker [teks1|teks2]*
-•├❍ *${prefix}ssweb [linkWeb]*
-•├❍ *${prefix}shorturl [linkWeb]*
+•├❍ *${prefix}artinama* [nama]
+•├❍ *${prefix}covid* [negara]
+•├❍ *${prefix}nulis* [teks]
+•├❍ *${prefix}sandwriting* [teks]
+•├❍ *${prefix}quotemaker* [|teks|author|theme]
+•├❍ *${prefix}resepmasakan* [optional]
+•├❍ *${prefix}tts* [kode bhs] [teks]
+•├❍ *${prefix}igstalk* [@username]
+•├❍ *${prefix}tiktokstalk* [@username]
+•├❍ *${prefix}wiki* [query]
+•├❍ *${prefix}qrcode* [optional]
+•├❍ *${prefix}map* [optional]
+•├❍ *${prefix}textmaker* [teks1|teks2]
+•├❍ *${prefix}ssweb* [linkWeb]
+•├❍ *${prefix}shorturl* [linkWeb]
 •├❍ *${prefix}animesaran*
 •├❍ *${prefix}animesaran2*
  ╰───────────────────
 
 ╭◪ *VIP USER*
 ╰───────────────────
-•├❏ *${prefix}ytmp4 [link]*
-•├❏ *${prefix}ytmp3 [link]*
+•├❏ *${prefix}ytmp4* [link]
+•├❏ *${prefix}ytmp3* [link]
 •├❏ *${prefix}hidetag2*
-•├❏ *${prefix}joox [lagu]*
+•├❏ *${prefix}joox* [lagu]
 •├❏ *${prefix}setprefix*
-•├❏ *${prefix}tomp3 [replay video]*
+•├❏ *${prefix}tomp3* [replay video]
 •├❏ *${prefix}randomanime*
 •├❏ *${prefix}randomhentai*
 •├❏ *${prefix}nsfwloli*
@@ -233,10 +233,10 @@ const listmenu = (prefix) => {
 •├❍ *${prefix}anjing*
 •├❍ *${prefix}randomcat*
  ╰─ Ketik *${prefix}info* untuk melihat list informasi tentang bot
-       Ketik *${prefix}owner* untuk melihat kontak owner
-         Mau donasi? 087714745440(XL)
-         Jika tidak ingin donasi bantu Follow Ig aja kak 
-         _instagram.com/itspapoy
-    _*Hazzelnut BOT © Copyright 2021*_`
+         Ketik *${prefix}owner* untuk melihat kontak owner
+                   Mau donasi? 087714745440(XL)
+          Jika tidak ingin donasi bantu Follow Ig aja kak 
+                     instagram.com/itspapoy
+                _*Hazzelnut BOT © Copyright 2021*_`
 }
 exports.listmenu = listmenu
