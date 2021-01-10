@@ -17,34 +17,36 @@ Awalan atau prefiks adalah sebuah afiks yang dibubuhkan pada awal sebuah kata da
  ╭◪ 𝐑𝐮𝐥𝐞𝐬𝐒 *Hazzelnut BOT*
  ╰───────────────────
 •├❍⧐ *Spam : Auto Block!*
-•├❍⧐ *Beri Jeda 5detik Penggunaan!*
-•├❍⧐ *Bug/Error Harap Cht Owner!*
-•├❍⧐ *Harap Sabar Dengan Bug²nya!*
-•├❍⧐ *Gunakan Bot Sebaik-baiknya!*
+•├❏⧐ *Setidaknya Beri Jeda 5 Detik Penggunaan!*
+•├❍⧐ *Bug/Error Harap Chat Owner!*
+•├❏⧐ *Mohon Bersabar Dengan Bug²nya!*
+•├❍⧐ *Gunakan Bot Dengan Sebaik-baiknya!*
+•├❏⧐ *Lo A6 Gw Santai, Lo U6 Gw Bantai!*
  ╰─────────────────────────────
 
  ╭◪ 𝐋𝐈𝐒𝐓 𝐌𝐄𝐍𝐔
 •├❍ Perintah/Command : 「 ${prefix} 」
 •├❍ Limit BOT    : No Limit
 •├❍ Harap Jangan menSpam BOT.
+•├❍ Inget beri jeda 5 Detik.
 •├──────────────────
 •├❏ *${prefix}ownermenu*
 •├❏ *${prefix}adminmenu*
-•├❏ *${prefix}nsfwmenu*
-•├❏ *${prefix}funmenu*
+•├❏ *${prefix}listmenu*
+•├❏ *${prefix}vipmenu*
 •├❏ *${prefix}mediamenu*
 •├❏ *${prefix}makermenu*
 •├❏ *${prefix}kerangmenu*
-•├❏ *${prefix}vipmenu*
+•├❏ *${prefix}funmenu*
 •├❏ *${prefix}animemenu*
 •├❏ *${prefix}othermenu*
-•└❏ *${prefix}listmenu*
+•└❏ *${prefix}nfswmenu*
  ╰───────────────────
 
  ╭◪ *OTHERS MENU*
  ╰───────────────────
-•├❏ *${prefix}request*
-•├❏ *${prefix}setprefix*
+•├❏ *${prefix}snk*
+•├❏ *${prefix}tnc*
 •├❏ *${prefix}bugreport*
 •├❏ *${prefix}listblock*
 •├❏ *${prefix}iklan*
@@ -56,8 +58,8 @@ Awalan atau prefiks adalah sebuah afiks yang dibubuhkan pada awal sebuah kata da
 •├❏ *${prefix}donate*
 •├❏ *${prefix}ping*
 •├❏ *${prefix}owner*
-•├❏ *${prefix}tnc*
-•└❏ *${prefix}snk*
+•├❏ *${prefix}setprefix*
+•└❏ *${prefix}request*
  ╰───────────────────
 
  ╭◪ *Spesial Thanks To*
