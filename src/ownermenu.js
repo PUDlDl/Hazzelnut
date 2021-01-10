@@ -9,19 +9,19 @@ const ownermenu = (prefix) => {
 ╠➥ *${prefix}demote @tagadmin*
 ╠➥ *${prefix}bc*
 ╠➥ *${prefix}leave*
-╠➥  *${prefix}bc2*
-╠➥  *${prefix}leave*
-╠➥  *${prefix}clearall*
-╠➥  *${prefix}clone*
-╠➥  *${prefix}hidetag*
-╠➥  *${prefix}hidetag2*
-╠➥  *${prefix}setprefix*
-╠➥  *${prefix}unban*
-╠➥  *${prefix}ban*
+╠➥ *${prefix}bc2*
+╠➥ *${prefix}leave*
+╠➥ *${prefix}clearall*
+╠➥ *${prefix}clone*
+╠➥ *${prefix}hidetag*
+╠➥ *${prefix}hidetag2*
+╠➥ *${prefix}setprefix*
+╠➥ *${prefix}unban*
+╠➥ *${prefix}ban*
 ╠➥ *${prefix}runtime*
 ╠➥ *${prefix}turnoff*
-╠➥  *${prefix}getses*
+╠➥ *${prefix}getses*
 ║
-╚═〘 Rizky BOT 〙`
+╚═〘 Hazzelnut BOT 〙`
 }
 exports.ownermenu = ownermenu
