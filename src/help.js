@@ -5,7 +5,7 @@ const help = (prefix) => {
 ├─❏ *NAME : Hazzelnut𝗕𝗢𝗧*
 ├─❏ *VERSION : v1.0*
 ──────────────────────
-𝐑𝐮𝐥𝐞𝐬𝐒 _*Hazzelnut-BOT*_
+𝐑𝐮𝐥𝐞𝐬𝐒 _*Hazzelnut BOT*_
 ──────────────────────
 
 ●⧐ *Spam : Auto Block!*
