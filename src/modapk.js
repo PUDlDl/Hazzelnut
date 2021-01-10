@@ -4,7 +4,7 @@ const modapk = () => {
 • Ingin mendownload sesuatu?
 
 
-👾APLIKASI
+ᥬ😎᭄ APLIKASI
 
 • Minecraft (Original)
 https://www.mediafire.com/file/4hixmktsfkhky91/Minecraft_v1.16.101.01_Terbaru.zip/file
