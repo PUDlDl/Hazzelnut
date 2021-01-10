@@ -3,9 +3,17 @@ const help = (prefix) => {
 ╔══❏〘 INFORMATION 〙❏══╗
 ├─❏ *BOT TYPE : JavaScript*
 ├─❏ *NAME : Hazzelnut𝗕𝗢𝗧*
-├─❏ *VERSION NEW : v1.0*
+├─❏ *VERSION NEW : v4.2*
+├─❏ *FREE : Yes*
+├─❏ *VIP : Yes*
+├─❏ *VVIP : No*
+├─❏ *VVVIP : No*
+├─❏ *PREMIUM : Yes*
 ╰───────────────────────
- 
+
+[!] _Apa itu prefix?_
+Awalan atau prefiks adalah sebuah afiks yang dibubuhkan pada awal sebuah kata dasar
+
  ╭◪ 𝐑𝐮𝐥𝐞𝐬𝐒 *Hazzelnut BOT*
  ╰───────────────────
 •├❍⧐ *Spam : Auto Block!*
