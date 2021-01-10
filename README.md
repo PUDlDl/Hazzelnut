@@ -1,13 +1,13 @@
-**Temporary artificial features and modification**
-
+| Temporary artificial features and modification |
+| :-: |
 
 ```bash
   jangan dulu di colong anjim
           gada akhlaq
 ```
 
-```please wait for the manuscript in the manufacturing process... ```
-
+| ```please wait for the manuscript in the manufacturing process... ``` |
+| :-: |
 
 ## ``Thanks 4 U``
 
