@@ -40,7 +40,7 @@ Awalan atau prefiks adalah sebuah afiks yang dibubuhkan pada awal sebuah kata da
 •├❏ *${prefix}funmenu*
 •├❏ *${prefix}animemenu*
 •├❏ *${prefix}othermenu*
-•└❏ *${prefix}nfswmenu*
+•└❏ *${prefix}nsfwmenu*
  ╰───────────────────
 
  ╭◪ *OTHERS MENU*
