@@ -2,10 +2,10 @@ const rules = (prefix) => {
 	return `
 *RULES BAGI PENGGUNA BOT*
     
-➤ Tolong Gunakan Delay Jangan Spam Saat Menggunakan Bot, Mentang Mentang Gratis Diborong semua.
-➤ Call/VC Bot Auto Block.
-➤ Jangan Call/VC Bot Kalau Tidak aktif.
-➤ Bot tidak aktif 24 jam, jadi tergantung kalau ownernya lagi ada waktu botnya juga on.
+├─❏ Tolong Gunakan Delay Jangan Spam Saat Menggunakan Bot, Mentang Mentang Gratis Diborong semua.
+├─❏ Call/VC Bot Auto Block.
+├─❏ Jangan Call/VC Bot Kalau Tidak aktif.
+├─❏ Bot tidak aktif 24 jam, jadi tergantung kalau ownernya lagi ada waktu botnya juga on.
 
 *Konsekuensi Bila Melanggar Rules*
 Bot Akan Memblokir Kamu Atau Keluar Dari Grup Yang Kamu Kelola.
